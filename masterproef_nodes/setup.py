@@ -27,18 +27,13 @@ setup(
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
-            # Entry points for CSV subscriber and watcher nodes
-            'csv_subscriber = masterproef_nodes.csv_subscriber:main',  
+            # Entry points for CSV subscriber and watcher nodes  
             'csv_zone_watcher = masterproef_nodes.csv_zone_watcher:main',
             'target_selector_node = masterproef_nodes.target_selector_node:main',
-            'yolo_coordinate_publisher = masterproef_nodes.yolo_coordinate_publisher:main',
             'yolo_node = masterproef_nodes.yolo_node:main',
             'heartbeat_publisher = masterproef_nodes.heartbeat_publisher:main',  
             'heartbeat_monitor = masterproef_nodes.heartbeat_monitor:main',
-            'image_server = masterproef_nodes.image_server:main',
-            'image_client = masterproef_nodes.image_client:main',
             'beamer_controller = masterproef_nodes.beamer_controller:main',
-            'compute_transform = masterproef_nodes.compute_transform:main',
             'compute_transformation = masterproef_nodes.compute_transformation:main',
             'slow_image_stitcher = masterproef_nodes.slow_image_stitcher:main',
             'fast_image_stitcher = masterproef_nodes.fast_image_stitcher:main',
